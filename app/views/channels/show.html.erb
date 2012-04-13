@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+<table>
+    <tr><th>Number</th><td><%= @channel.channum %></td></tr>
+    <tr><th>Name</th><td><%= @channel.name %></td></tr>
+  	<tr><th>Callsign</th><td><%= @channel.callsign %></td></tr>
+  	<tr><th>XMLTV ID</th><td><%= @channel.xmltvid %></td></tr>
+  	<tr><th>Icon</th><td><%= @channel.icon %></td></tr>
+</table>
+<%= link_to 'Edit', edit_channel_path(@channel) %> |
+<%= link_to 'Back', channels_path %>

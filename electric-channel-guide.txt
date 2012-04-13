@@ -1,0 +1,315 @@
+ENTERTAINMENT
+
+100,On Demand Previews
+101,BBC One
+102,BBC Two
+103,ITV1
+104,Channel 4
+105,Channel 5
+106,BBC Three
+107,BBC Four
+108,BBC One HD
+109,Sky Living
+110,Sky Living HD
+111,Sky Living +1
+112,Sky Livingit
+113,ITV1 HD
+114,ITV1 +1
+115,ITV2
+116,ITV2 +1
+117,ITV3
+118,ITV4
+121,Sky1
+122,Sky1 HD
+123,Sky2
+124,Watch
+125,Watch HD
+126,Gold
+127,Gold +1
+128,Dave
+129,Dave HD
+130,Alibi
+131,Alibi +1
+132,Comedy Central
+133,Comedy Central HD
+134,Comedy Central +1
+135,Syfy
+139,Challenge
+140,Challenge +1
+142,C4 HD
+143,Channel 4 +1
+144,E4
+145,E4 HD
+146,E4 +1
+147,More4
+148,CBS Reality
+149,Horror Channel
+150,Channel 5 HD
+151,5*
+152,5* +1
+153,5 USA
+154,5 USA +1
+156,E! Entertainment
+		
+Television
+157,FX
+158,FX HD
+160,Sky Livingit +1
+162,Universal Channel
+163,Universal Channel +1
+165,Syfy HD
+166,Syfy +1
+172,DMAX
+174,ITV3 +1
+175,ITV4 +1
+179,Quest
+180,Pick TV
+185,Comedy Central Extra
+187,BBC HD
+188,BBC Alba (only in Scotland)
+189,True Entertainment
+190,Watch +1
+191,Dave ja vu
+192,CBS Action
+193,Sony Entertainment
+
+Factual
+
+203,Yesterday
+204,Yesterday +1
+206,Blighty
+208,Eden
+209,Eden HD
+210,Eden +1
+212,Discovery
+213,Discovery +1
+214,Discovery HD
+215,Animal Planet
+217,Discovery History
+219,Discovery Science
+221,Discovery Turbo
+228,Nat Geo Wild
+230,National Geographic Channel
+231,National Geographic Channel +1
+232,National Geographic Channel HD
+233,Community Channel
+234,History
+236,Military History
+237,Crime & Investigation Network
+242,Bio
+
+Lifestyle
+
+243,PBS
+260,Good Food
+261,Good Food HD
+262,Good Food +1
+265,Home
+266,Home +1
+267,Really
+271,Discovery Real Time
+272,Discovery Real Time +1
+273,Discovery Travel & Living
+274,Discovery Shed
+275,Discovery Home & Health
+279,God Channel
+281,Sky Arts 1
+282,Sky Arts 1 HD
+283,Sky Arts 2
+284,Sky Arts 2 HD
+
+Music
+300,VTV Music On Demand
+310,MTVN HD
+311,MTV
+313,Viva
+315,MTV Base
+317,MTV Hits
+319,MTV Dance
+320,VH1
+325,MTV Rocks
+330,4Music
+335,The Box
+336,Kiss
+337,Smash Hits
+338,Q
+340,Magic
+342,Kerrang!
+
+Movies
+
+400,FilmFlex Previews
+401,Sky Movies Premiere
+402,Sky Movies Premiere +1
+403,Sky Movies Showcase
+404,Sky Movies Comedy
+405,Sky Movies Action & Adventure
+406,Sky Movies Family
+407,Sky Movies Crime & Thriller
+408,Sky Movies Drama & Romance
+409,Sky Movies Sci-Fi & Horror
+410,Sky Movies Modern Greats
+411,Sky Movies Classics
+412,Sky Movies Indie
+415,TCM
+419,Movies 24
+420,Movies 24+
+424,True Movies 1
+428,Film4
+429,Film4 HD
+430,Film4 +1
+431,Sky Movies Premiere HD
+433,Sky Movies Showcase HD
+434,Sky Movies Comedy HD
+435,Sky Movies Action & Adventure HD
+436,Sky Movies Family HD
+437,Sky Movies Crime & Thriller HD
+438,Sky Movies Drama & Romance HD
+439,Sky Movies Sci-Fi & Horror HD
+440,Sky Movies Modern Greats HD
+441,Sky Classics HD
+442,Sky Movies Indie HD
+445,Cinémoi
+
+Adult
+
+470,Adult Previews
+473,Television X
+475,Playboy TV Nightly
+477,Adult Channel
+478,My Ex-Girlfriends Nightly
+480,Red Hot Fetish
+481,Red Hot Mums
+484,XXX Mums
+490,Television X
+495,Playboy TV
+497,Adult Channel
+
+Sport
+511,Sky Sports 1
+512,Sky Sports 2
+513,Sky Sports 3
+514,Sky Sports 4
+515,Sky Sports News
+516,Sky Sports F1
+517,Sky Sports HD 1
+518,Sky Sports HD 2
+521,British Eurosport
+522,Eurosport HD
+525,British Eurosport 2
+527,Extreme Sports
+528,MUTV
+529,ESPN
+530,ESPN HD
+531,ESPN America
+533,ESPN Classic
+534,At The Races
+536,Racing UK
+544,Liverpool FC TV
+545,Motors TV
+546,Box Nation
+
+News
+
+601,BBC News
+602,Sky News
+607,CNN
+609,Bloomberg
+612,BBC Parliament
+613,CNBC
+620,Euronews (multiple languages)
+621,NDTV
+
+Kids
+
+701,CBBC Channel
+702,CBeebies
+703,Baby TV
+704,Cartoon Network
+705,Cartoon Network Too
+706,Cartoonito
+707,Disney XD
+708,Disney XD +1
+712,Nickelodeon
+713,Nick Replay
+715,Nick Jr.
+716,Nick Jr. 2
+717,Nicktoons TV
+724,Disney Channel
+725,Disney Channel +1
+757,Disney Junior
+728,Disney Cinemagic
+730,Boomerang
+731,Boomerang +1
+734,CITV
+737,Tiny Pop
+
+Shopping
+740,QVC
+741,Price Drop
+742,Best Direct TV
+745,Bid
+746,Speed Auction
+747,Ideal World
+755,Gems TV
+756,Jewellery Maker
+
+International
+
+802,Star News
+803,Star Plus
+805,SET Asia
+805,SET Max
+809,Zee TV
+810,Zee Cinema
+812,Zee Punjabi
+815,B4U Movies
+816,B4U Music
+818,ARY Digital
+825,TV5
+826,Colors TV
+
+Audio description
+
+851,BBC One AD
+852,BBC Two AD
+853,ITV AD
+854,Channel 4 AD
+855,Channel 5 AD
+
+Radio
+
+901,BBC Radio 1
+902,BBC Radio 2
+903,BBC Radio 3
+904,BBC Radio 4
+905,BBC Radio 5 Live
+906,BBC World Service
+907,BBC 1Xtra
+908,BBC Radio 5 Live Sports Extra
+909,BBC 6 Music
+910,BBC Radio 4 Extra
+912,BBC Asian Network
+914,UCB Europe
+915,Absolute Radio
+916,Smooth FM
+917,RTE Radio
+918,Heart 106.2
+919,LBC News 1152
+922,Classic FM
+924,Planet Rock
+927,Talksport
+928,Magic
+951,Absolute 80s
+952,Absolute Classic Rock
+958,Capital FM
+959,Gold
+963,Kiss FM
+965,Xfm
+969,Choice FM
+973,LBC 97.3 FM
+974,Sunrise Radio
+
+Information
+
+998,PIN Protection Help
