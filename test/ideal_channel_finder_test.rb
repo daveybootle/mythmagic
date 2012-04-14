@@ -29,11 +29,14 @@ class IdealChannelFinderTest < ActiveSupport::TestCase
 
   test "Channel with x instead of XMLTV ID is marked as ignored" do
     unit = IdealChannelFinder.new('test/test_chan_var.csv')
-    assert !unit['BBC THREE'][:ignore], "BBC THREE should not be marked as ignored"
     assert unit['Soft Porn'][:ignore], "Soft Porn should be marked as ignored"
-
-    assert !unit['Channel X'][:ignore], "Channel X's XMLTV ID starts with x but should not be ignored"
   end
 
+  test "Chanels without x in XMLTV ID or with more than just x should not be marked as ignored" do
+    unit = IdealChannelFinder.new('test/test_chan_var.csv')
+    assert !unit['BBC THREE'][:ignore], "BBC THREE should not be marked as ignored"
+    assert !unit['Channel X'][:ignore], "Channel X's XMLTV ID starts with x but should not be ignored"
+  end
+    
 end
 
