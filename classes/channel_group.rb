@@ -1,5 +1,5 @@
 class ChannelGroup
-  attr_accessor :sources, :name, :callsign, :xmltvid, :icon
+  attr_reader :sources, :name, :callsign, :xmltvid, :icon
   
   def initialize channel_name, callsign, xmltvid
     @name = channel_name.strip if channel_name

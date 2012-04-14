@@ -1,6 +1,6 @@
 class IdealChannelFinder < Hash
 
-  attr_accessor :file_syntax_errors
+  attr_reader :file_syntax_errors
   
   def initialize mapping_file_name
     @channel_matching_map = {}
@@ -16,6 +16,7 @@ class IdealChannelFinder < Hash
           channel[:short_name] = linebits[2]
           channel[:xmltv_id] = linebits[3].strip
           self[linebits[0]] = channel
+          channel[:ignore] = channel[:xmltv_id][0] == 'x' && channel[:xmltv_id].length == 1 
         else
           @file_syntax_errors << line unless line.strip == ""
         end

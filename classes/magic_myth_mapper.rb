@@ -1,6 +1,6 @@
 class MagicMythMapper
 
-  attr_accessor :channel_map, :unmatched_channel_names
+  attr_reader :channel_map, :unmatched_channel_names
   
   def initialize myth_channels
     @channel_map = {}
@@ -20,13 +20,9 @@ class MagicMythMapper
     ideal_channel = lookup_ideal_channel(myth_channel.name)
     if ideal_channel.nil? then
       @unmatched_channel_names << myth_channel.name
-    elsif ignored_channel?(ideal_channel) then
+    elsif !ideal_channel[:ignore] then
       register_channel_in_channel_map ideal_channel, myth_channel
     end
-  end
-
-  def ignored_channel? ideal_channel
-    ideal_channel[:xmltv_id][0] != 120 
   end
 
   def register_channel_in_channel_map ideal_channel, myth_channel
