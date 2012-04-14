@@ -2,18 +2,15 @@ class MagicMythMapper
 
   attr_reader :channel_map, :unmatched_channel_names
   
-  def initialize myth_channels
+  def initialize
     @channel_map = {}
     @unmatched_channel_names = []
     
-    process_myth_channels myth_channels
     #fix_all_channels
   end
   
   def process_myth_channels myth_channels
-    myth_channels.each do |channel|
-     process_channel(channel)
-    end
+    myth_channels.each { |channel| process_channel(channel) }
   end
   
   def process_channel myth_channel
