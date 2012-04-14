@@ -1,9 +1,9 @@
 require File.expand_path('../test_helper.rb', __FILE__)
 
-class ChannelMatcherTest < ActiveSupport::TestCase
+class IdealChannelFinderTest < ActiveSupport::TestCase
   
    test "Should read file data into itself as Hash" do
-     unit = ChannelMatcher.new('test/test_chan_var.csv')
+     unit = IdealChannelFinder.new('test/test_chan_var.csv')
      
      assert_not_nil unit['BBC Three']
      assert_equal "BBC THREE", (unit['BBC Three'][:ideal_name])
@@ -18,7 +18,7 @@ class ChannelMatcherTest < ActiveSupport::TestCase
    end
    
    test "Should report unparsable lines" do
-     unit = ChannelMatcher.new('test/test_chan_var.csv')
+     unit = IdealChannelFinder.new('test/test_chan_var.csv')
      assert unit.file_syntax_errors.include?("deliberately stupid line\n")
      assert unit.file_syntax_errors.include?("BBC Two Sud,BBC TWO,BBC2,south.bbc2.bbc.co.uk,nearly correct line\n")
    end

@@ -8,6 +8,6 @@ ActiveRecord::Base.establish_connection(dbconfig['development'])
 
 Dir[File.expand_path('../classes/*.rb', __FILE__)].each{ |file| require file }
 
-mmm = MagicMythMapper.new()
-mmm.report
+mmm = MagicMythMapper.new(Channel.find(:all))
+MythChannelReporter.print_report(mmm.channel_map, mmm.unmatched_channel_names)
 

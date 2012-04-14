@@ -1,4 +1,4 @@
-class ChannelMatcher < Hash
+class IdealChannelFinder < Hash
 
   attr_accessor :file_syntax_errors
   
@@ -21,7 +21,6 @@ class ChannelMatcher < Hash
         end
       end
     end
-   
   end
 
 end

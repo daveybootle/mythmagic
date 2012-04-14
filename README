@@ -1,0 +1,11 @@
+Scripts to clean up and align MythTV channels from disparate sources.
+
+Get gem dependencies
+> bundle install
+
+Run the build (with code coverage analysis)
+> rake
+
+Run the script
+> ./fixchans
+
