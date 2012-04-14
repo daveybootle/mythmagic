@@ -1,6 +1,6 @@
-require 'test_helper'
+require File.expand_path('../test_helper.rb', __FILE__)
 
-class ChannelTest < ActiveSupport::TestCase
+class ChannelMatcherTest < ActiveSupport::TestCase
   
    test "Should read file data into itself as Hash" do
      unit = ChannelMatcher.new('test/test_chan_var.csv')

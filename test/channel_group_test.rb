@@ -1,4 +1,4 @@
-require 'test_helper'
+require File.expand_path('../test_helper.rb', __FILE__)
 
 class ChannelGroupTest < ActiveSupport::TestCase
 
@@ -16,8 +16,7 @@ class ChannelGroupTest < ActiveSupport::TestCase
 
   test "Added myth channel available in source map" do
     unit = ChannelGroup.new("BBC ONE","BBC1","one.bbc.co.uk")
-    channel = Channel.new()
-    channel.sourceid = 1
+    channel = MockChannel.new(1,nil)
     unit.add_myth_channel channel
 
     source_channel_list = unit.sources[1]
@@ -27,8 +26,7 @@ class ChannelGroupTest < ActiveSupport::TestCase
 
   test "Myth channel not added if visible=0" do
     unit = ChannelGroup.new("BBC ONE","BBC1","one.bbc.co.uk")
-    channel = Channel.new()
-    channel.sourceid = 1
+    channel = MockChannel.new(1,nil)
     channel.visible = 0
     unit.add_myth_channel channel
 
@@ -37,11 +35,9 @@ class ChannelGroupTest < ActiveSupport::TestCase
 
   test "Two added channels should appear in source list" do
     unit = ChannelGroup.new("BBC ONE","BBC1","one.bbc.co.uk")
-    channel1 = Channel.new()
-    channel1.sourceid = 1
+    channel1 = MockChannel.new(1,nil)
 
-    channel2 = Channel.new()
-    channel2.sourceid = 1
+    channel2 = MockChannel.new(1,nil)
 
     unit.add_myth_channel(channel1)
     unit.add_myth_channel(channel2)
@@ -51,11 +47,9 @@ class ChannelGroupTest < ActiveSupport::TestCase
 
   test "Icon should be available from last added channel" do
     unit = ChannelGroup.new("BBC ONE","BBC1","one.bbc.co.uk")
-    channel1 = Channel.new()
-    channel1.sourceid = 1
+    channel1 = MockChannel.new(1,nil)
 
-    channel2 = Channel.new()
-    channel2.sourceid = 1
+    channel2 = MockChannel.new(1,nil)
     channel2.icon = "myicon.png"
 
     unit.add_myth_channel(channel1)
@@ -67,12 +61,10 @@ class ChannelGroupTest < ActiveSupport::TestCase
 
   test "Icon should be available from first added channel" do
     unit = ChannelGroup.new("BBC ONE","BBC1","one.bbc.co.uk")
-    channel1 = Channel.new()
-    channel1.sourceid = 1
+    channel1 = MockChannel.new(1,nil)
     channel1.icon = "myicon.png"
 
-    channel2 = Channel.new()
-    channel2.sourceid = 1
+    channel2 = MockChannel.new(1,nil)
 
     unit.add_myth_channel(channel1)
     unit.add_myth_channel(channel2)
@@ -83,12 +75,10 @@ class ChannelGroupTest < ActiveSupport::TestCase
 
   test "Empty Icon string should not be added to channel" do
     unit = ChannelGroup.new("BBC ONE","BBC1","one.bbc.co.uk")
-    channel1 = Channel.new()
-    channel1.sourceid = 1
+    channel1 = MockChannel.new(1,nil)
     channel1.icon = "myicon.png"
 
-    channel2 = Channel.new()
-    channel2.sourceid = 1
+    channel2 = MockChannel.new(1,nil)
     channel2.icon = ""
 
     unit.add_myth_channel(channel1)
@@ -100,12 +90,10 @@ class ChannelGroupTest < ActiveSupport::TestCase
 
   test "Icon strings should be stripped" do
     unit = ChannelGroup.new("BBC ONE","BBC1","one.bbc.co.uk")
-    channel1 = Channel.new()
-    channel1.sourceid = 1
+    channel1 = MockChannel.new(1,nil)
     channel1.icon = "  myicon.png  "
 
-    channel2 = Channel.new()
-    channel2.sourceid = 1
+    channel2 = MockChannel.new(1,nil)
     channel2.icon = " "
 
     unit.add_myth_channel(channel1)
@@ -118,22 +106,18 @@ class ChannelGroupTest < ActiveSupport::TestCase
   test "Lowest channel number taken from numerically first source excluding zero" do
     unit = ChannelGroup.new("BBC ONE","BBC1","one.bbc.co.uk")
 
-    channel_without_channum = Channel.new()
-    channel_without_channum.sourceid=1
+    channel_without_channum = MockChannel.new(1,nil)
 
-    channel_with_zero_channum = Channel.new()
-    channel_with_zero_channum.sourceid=1
+    channel_with_zero_channum = MockChannel.new(1,nil)
     channel_with_zero_channum.channum=0
 
-    channel1 = Channel.new()
-    channel1.sourceid=3
+    channel1 = MockChannel.new(3,nil)
     channel1.channum=1234
 
-    channel2 = Channel.new()
-    channel2.sourceid=1
+    channel2 = MockChannel.new(1,nil)
     channel2.channum=32
 
-    channel3 = Channel.new()
+    channel3 = MockChannel.new(1,nil)
     channel3.sourceid=1
     channel3.channum=4
 
