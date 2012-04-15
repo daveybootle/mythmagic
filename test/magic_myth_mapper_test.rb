@@ -114,4 +114,46 @@ class MagicMythMapperTest < ActiveSupport::TestCase
 
     assert_equal 4, unit.processed_channels.size
   end
+
+  test "lookup_ideal_channel gets an ideal_channel_finder and uses it" do
+    unit = MagicMythMapper.new
+    def unit.ideal_channel_finder
+      {'Chan Name' =>'Found Channel'}
+    end
+    assert_equal('Found Channel', unit.lookup_ideal_channel('Chan Name'))
+  end
+
+  test "write_changes_to_db tells each channel to write" do
+    my_channel_group = MockChannelGroup.new
+
+    unit = MagicMythMapper.new
+    def unit.set_channel_map channel_map
+      @channel_map = channel_map
+    end
+
+    channel_group_1 = MockChannelGroup.new
+    channel_group_2 = MockChannelGroup.new
+    channel_group_3 = MockChannelGroup.new
+
+    unit.set_channel_map({"name1" => channel_group_1,"name2" => channel_group_2,"name3" => channel_group_3})
+    unit.write_changes_to_db
+    
+    assert channel_group_1.written
+    assert channel_group_2.written
+    assert channel_group_3.written
+  end
+
+  class MockChannelGroup
+    attr_reader :written
+    def writechannels
+      @written = true
+    end
+  end
+
+  test "ideal_channel_finder makes new instance, then reuses it" do
+    unit = MagicMythMapper.new
+    first_channel_finder = unit.ideal_channel_finder
+    second_channel_finder = unit.ideal_channel_finder
+    assert_same first_channel_finder, second_channel_finder
+  end
 end

@@ -6,7 +6,7 @@ class MagicMythMapper
     @channel_map = {}
     @unmatched_channel_names = []
     
-    #fix_all_channels
+    #write_changes_to_db
   end
   
   def process_myth_channels myth_channels
@@ -24,18 +24,24 @@ class MagicMythMapper
 
   def register_channel_in_channel_map ideal_channel, myth_channel
     ideal_name = ideal_channel[:ideal_name]
-    if @channel_map[ideal_name].nil? then
-      @channel_map[ideal_name] = ChannelGroup.new(ideal_name,ideal_channel[:short_name],ideal_channel[:xmltv_id])
-    end
+    @channel_map[ideal_name] = create_new_channel_group(ideal_channel) if @channel_map[ideal_name].nil?
     @channel_map[ideal_name].add_myth_channel(myth_channel)
   end
 
-  def lookup_ideal_channel channel_name
-    @ideal_channel_finder = IdealChannelFinder.new('chan_name_variations.csv') if @ideal_channel_finder.nil?
-    @ideal_channel_finder[channel_name]
+  def create_new_channel_group ideal_channel
+    ChannelGroup.new(ideal_channel[:ideal_name],ideal_channel[:short_name],ideal_channel[:xmltv_id])
   end
 
-  def fix_all_channels
+  def ideal_channel_finder
+    @ideal_channel_finder = IdealChannelFinder.new('chan_name_variations.csv') if @ideal_channel_finder.nil?
+    @ideal_channel_finder
+  end
+
+  def lookup_ideal_channel channel_name
+    ideal_channel_finder[channel_name]
+  end
+
+  def write_changes_to_db
     @channel_map.each do |good_name, channel_group|
       channel_group.writechannels
     end 
