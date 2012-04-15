@@ -1,7 +1,7 @@
 [102.2 Smooth FM],102.2 Smooth FM,Smooth,
 [4Music],4Music,4Music,4music.channel4.com
-[5* +1],5* +1,5*+1,tsod.plus-1.fiver.channel5
-[5*],5*,5*,fiver.channel5.co.uk
+[5* +1,Five * +1],5* +1,5*+1,tsod.plus-1.fiver.channel5
+[5*,Five *],5*,5*,fiver.channel5.co.uk
 [Aastha],Aastha,Aastha,
 [Absolute 80s],Absolute 80s,Abs80s,
 [Absolute Classic Rock],Absolute Classic Rock,AbsClsRk,
@@ -52,9 +52,10 @@
 [BBC 2 NI],BBC 2 NI,BBC 2 NI,x
 [BBC 2 Scotland],BBC 2 Scotland,BBC 2 Scotland,x
 [BBC 2 Wales],BBC 2 Wales,BBC 2 Wales,x
+[BBC One South],BBC One South,BBC 1,x
 [BBC One South West],BBC One South West,BBCON,x
-[BBC Alba],BBC Alba,BBCAl,alba.bbc.co.uk
-[BBC Asian Net.],BBC Asian Network,BBC Asian,
+[BBC Alba,bbc alba (only in scotland)],BBC Alba,BBCAl,alba.bbc.co.uk
+[BBC Asian Net.,bbc asian network],BBC Asian Network,BBC Asian,
 [BBC FOUR],BBC FOUR,BBC4,bbcfour.bbc.co.uk
 [BBC HD],BBC HD,BBCHD,hd.bbc.co.uk
 [BBC NEWS],BBC News Channel,BBCNEWS,news.bbc.co.uk
@@ -234,20 +235,21 @@
 [holiday+cruise],holiday+cruise,holiday+cruise,
 [Home +1],Home +1,Home+1,tsod.plus-1.home.uktv.co.uk
 [Home],Home,Home,
-[horror ch+1],horror ch+1,horror ch+1,plus-1.horror.cbs.com
-[Horror Channel],Horror Channel,Horror,horror.cbs.com
+[Horror Channel +1,horror ch+1],horror ch+1,horror ch+1,plus-1.horror.cbs.com
+[Horror Channel,Zone Horror],Horror Channel,Horror,horror.cbs.com
 [Horse & Country],Horse & Country,Horse & Country,
 [House Of Fun],House Of Fun,House Of Fun,
 [Ideal Extra],Ideal Extra,Ideal Extra,
 [Ideal & More],Ideal & More,Ideal & More,
 [Ideal World],Ideal World,IdlWrld,idealworld.tv
+[Ideal World 2],Ideal World 2,IdlWrld2,
 [Imagine Dil Se],Imagine Dil Se,Imagine Dil Se,
 [Information TV],Information TV,Information TV,showcase.information.tv
 [Info TV +1],Info TV +1,Info TV +1,
 [Inspiration],Inspiration,Inspiration,
 [IQRA TV],IQRA TV,IQRA TV,
 [Islam Channel],Islam Channel,Islam Channel,
-[ITV1,ITV1 Meridian],ITV1,ITV1,meridian.itv1.itv.co.uk
+[ITV1,ITV1 Meridian,ITV1 Meridian S],ITV1,ITV1,meridian.itv1.itv.co.uk
 [ITV1 +1,ITV1+1],ITV1+1,ITV1+1,plus-1.meridian.itv1.itv.co.uk
 [ITV1 Anglia E],ITV1 Anglia E,ITV1 Anglia E,x
 [ITV1 Anglia S],ITV1 Anglia S,ITV1 Anglia S,x
@@ -382,7 +384,7 @@
 [Renault TV],Renault TV,Renault TV,
 [Retail TV],Retail TV,Retail TV,
 [revelation],revelation,revelation,
-[Rocks & Co 1],Rocks & Co 1,Rocks & Co 1,rocksandco.com
+[Rocks & Co 1,Rocks & Co],Rocks & Co,Rocks & Co,rocksandco.com
 [Russia Today],Russia Today,Russia Today,
 [S4C2],S4C2,S4C2,2.s4c.co.uk
 [S4C,S4C Digidol],S4C,S4CDI,s4c.co.uk
@@ -403,7 +405,7 @@
 [Sky Livingit +1],Sky Livingit +1,Livit+1,plus-1.livingit.livingtv.co.uk
 [Sky Livingit],Sky Livingit,LIV2,livingit.livingtv.co.uk
 [Sky Living Loves],Sky Living Loves,LivLoves,livingloves.sky.com
-[Sky News],Sky News,SKYNews,sky-news.sky.com
+[Sky News,Sky News UK (Cable)],Sky News,SKYNews,sky-news.sky.com
 [Sky One],Sky One,Sky1,sky-one.sky.com
 [Sky],Sky,Sky,x
 [Sky Sports News],Sky Sports News,SSNews,news.sports.sky.com
@@ -433,7 +435,7 @@
 [Takbeer TV],Takbeer TV,Takbeer TV,
 [talkSPORT],talkSPORT,tlkSPT,
 [TBN Europe],TBN Europe,TBN Europe,
-[Teachers' TV (Freeview)],Teachers' TV (Freeview),TEATV,dvb.teachers.tv
+[Teachers' TV (Freeview),Teachers TV],Teachers' TV (Freeview),TEATV,dvb.teachers.tv
 [Teachers' TV (Satellite/Cable)],Teachers' TV (Satellite/Cable),Teach,
 [Television X],Television X,Television X,x
 [Thane Direct],Thane Direct,Thane Direct,bestdirect.tv
@@ -488,6 +490,6 @@
 [Word Network],Word Network,Word Network,
 [XFM],XFM,XFM,
 [xxXpanded TV],xxXpanded TV,xxXpanded TV,
-[Yesterday],Yesterday,Ystrdy,yesterday.uktv.co.uk
+[Yesterday,Yesterday (Virgin)],Yesterday,Ystrdy,yesterday.uktv.co.uk
 [Zing],Zing,Zing,
 [Zone Reality],Zone Reality,Realty,reality.cbs.com

@@ -1,5 +1,3 @@
-ENTERTAINMENT
-
 100,On Demand Previews
 101,BBC One
 102,BBC Two
@@ -50,8 +48,6 @@ ENTERTAINMENT
 153,5 USA
 154,5 USA +1
 156,E! Entertainment
-		
-Television
 157,FX
 158,FX HD
 160,Sky Livingit +1
@@ -72,9 +68,6 @@ Television
 191,Dave ja vu
 192,CBS Action
 193,Sony Entertainment
-
-Factual
-
 203,Yesterday
 204,Yesterday +1
 206,Blighty
@@ -97,9 +90,6 @@ Factual
 236,Military History
 237,Crime & Investigation Network
 242,Bio
-
-Lifestyle
-
 243,PBS
 260,Good Food
 261,Good Food HD
@@ -117,8 +107,6 @@ Lifestyle
 282,Sky Arts 1 HD
 283,Sky Arts 2
 284,Sky Arts 2 HD
-
-Music
 300,VTV Music On Demand
 310,MTVN HD
 311,MTV
@@ -135,9 +123,6 @@ Music
 338,Q
 340,Magic
 342,Kerrang!
-
-Movies
-
 400,FilmFlex Previews
 401,Sky Movies Premiere
 402,Sky Movies Premiere +1
@@ -170,9 +155,6 @@ Movies
 441,Sky Classics HD
 442,Sky Movies Indie HD
 445,Cinémoi
-
-Adult
-
 470,Adult Previews
 473,Television X
 475,Playboy TV Nightly
@@ -184,8 +166,6 @@ Adult
 490,Television X
 495,Playboy TV
 497,Adult Channel
-
-Sport
 511,Sky Sports 1
 512,Sky Sports 2
 513,Sky Sports 3
@@ -208,9 +188,6 @@ Sport
 544,Liverpool FC TV
 545,Motors TV
 546,Box Nation
-
-News
-
 601,BBC News
 602,Sky News
 607,CNN
@@ -219,9 +196,6 @@ News
 613,CNBC
 620,Euronews (multiple languages)
 621,NDTV
-
-Kids
-
 701,CBBC Channel
 702,CBeebies
 703,Baby TV
@@ -243,9 +217,6 @@ Kids
 731,Boomerang +1
 734,CITV
 737,Tiny Pop
-
-Shopping
-740,QVC
 741,Price Drop
 742,Best Direct TV
 745,Bid
@@ -253,9 +224,6 @@ Shopping
 747,Ideal World
 755,Gems TV
 756,Jewellery Maker
-
-International
-
 802,Star News
 803,Star Plus
 805,SET Asia
@@ -268,17 +236,11 @@ International
 818,ARY Digital
 825,TV5
 826,Colors TV
-
-Audio description
-
 851,BBC One AD
 852,BBC Two AD
 853,ITV AD
 854,Channel 4 AD
 855,Channel 5 AD
-
-Radio
-
 901,BBC Radio 1
 902,BBC Radio 2
 903,BBC Radio 3
@@ -309,7 +271,4 @@ Radio
 969,Choice FM
 973,LBC 97.3 FM
 974,Sunrise Radio
-
-Information
-
 998,PIN Protection Help

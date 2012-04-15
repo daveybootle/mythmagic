@@ -118,7 +118,7 @@ class MagicMythMapperTest < ActiveSupport::TestCase
   test "lookup_ideal_channel gets an ideal_channel_finder and uses it" do
     unit = MagicMythMapper.new
     def unit.ideal_channel_finder
-      {'Chan Name' =>'Found Channel'}
+      {'chan name' =>'Found Channel'}
     end
     assert_equal('Found Channel', unit.lookup_ideal_channel('Chan Name'))
   end
