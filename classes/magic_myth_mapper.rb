@@ -41,7 +41,7 @@ class MagicMythMapper
   end
 
   def lookup_ideal_channel channel_name
-    ideal_channel_finder[channel_name]
+    ideal_channel_finder[channel_name.downcase]
   end
 
   def write_changes_to_db

@@ -36,7 +36,7 @@ class IdealChannelFinder < Hash
         linebits[2] = "" if linebits[2].nil?
         channel[:xmltv_id] = linebits[2].strip
         channel[:ignore] = channel[:xmltv_id][0] == 'x' && channel[:xmltv_id].length == 1 unless channel[:xmltv_id].nil?
-        self[alt_name] = channel
+        self[alt_name.downcase] = channel
       end
     else
       @file_syntax_errors << "#{line} - expected at least 2 ideal parameters but got #{linebits.length}"

@@ -80,7 +80,7 @@ class MythChannelReporter
   end
   
   def self.print_unmatched_channel_names unmatched_channel_names
-    puts "Unmatched Channels:"
+    puts "#{unmatched_channel_names.size} Unmatched Channels:"
     unmatched_channel_names.each{ |channel| print "#{channel}, " }
     puts "\n"
   end
