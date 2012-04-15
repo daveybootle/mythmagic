@@ -33,7 +33,10 @@ class MagicMythMapper
   end
 
   def ideal_channel_finder
-    @ideal_channel_finder = IdealChannelFinder.new('chan_name_variations.csv') if @ideal_channel_finder.nil?
+    if @ideal_channel_finder.nil?
+      @ideal_channel_finder = IdealChannelFinder.new('chan_name_variations.csv') 
+      puts @ideal_channel_finder.file_syntax_errors
+    end
     @ideal_channel_finder
   end
 
