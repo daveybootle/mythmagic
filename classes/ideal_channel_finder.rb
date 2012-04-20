@@ -1,5 +1,3 @@
-require 'pp'
-
 class IdealChannelFinder < Hash
 
   attr_reader :file_syntax_errors
