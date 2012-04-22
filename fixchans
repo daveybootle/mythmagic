@@ -10,11 +10,15 @@ ActiveRecord::Base.establish_connection(dbconfig['development'])
 Dir[File.expand_path('../classes/*.rb', __FILE__)].each{ |file| require file }
 
 ideal_channel_finder = IdealChannelFinder.new(File.expand_path('../chan_name_variations.csv',__FILE__))
+puts ideal_channel_finder.file_syntax_errors
+puts ideal_channel_finder
+vcf = VirginChannelFinder.new('electric-channel-guide.txt',ideal_channel_finder)
 
-mmm = MagicMythMapper.new
+mmm = MagicMythMapper.new(ideal_channel_finder)
 mmm.process_myth_channels(Channel.find(:all))
 
-numberer = ChannelNumberer.new(VirginChannelFinder.new('electric-channel-guide.txt'))
+numberer = ChannelNumberer.new(vcf)
+
 numbered_channel_map = numberer.number(mmm.channel_map)
 
 MythChannelReporter.print_report(numbered_channel_map, mmm.unmatched_channel_names)

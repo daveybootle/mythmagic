@@ -11,14 +11,15 @@ class MagicMythMapperTest < ActiveSupport::TestCase
   end 
 
   test "process_channel registers myth channel using ideal name" do
-    unit = MagicMythMapper.new
-    def unit.lookup_ideal_channel(name)
-      {:ideal_name => "My Ideal Name", :ignore => false}
+    ideal_channel_mapper = {'Name' => {:ideal_name => "My Ideal Name", :ignore => false}}
+    def ideal_channel_mapper.find(name)
+      self[name]
     end
-    assert_equal "My Ideal Name", unit.lookup_ideal_channel("blah")[:ideal_name]
+    unit = MagicMythMapper.new(ideal_channel_mapper)
 
     myth_channel = MockActiveRecordChannel.new
     myth_channel.sourceid = 4
+    myth_channel.name = 'Name'
 
     unit.process_channel myth_channel
     channel_group = unit.channel_map['My Ideal Name']
@@ -29,9 +30,6 @@ class MagicMythMapperTest < ActiveSupport::TestCase
 
   test "process_channel records unmatched channels" do
     unit = MagicMythMapper.new
-    def unit.lookup_ideal_channel(name)
-      nil
-    end
 
     myth_channel = MockActiveRecordChannel.new
     myth_channel.name = "Non matching channel"
@@ -43,14 +41,15 @@ class MagicMythMapperTest < ActiveSupport::TestCase
   end
 
   test "process_channel ignores channels with :ignore true" do
-    unit = MagicMythMapper.new
-    def unit.lookup_ideal_channel(name)
-      {:ideal_name => "Ignorable Channel", :ignore => true}
+    ideal_channel_mapper = {"Name" => {:ideal_name => "My Ideal Name", :ignore => true}}
+    def ideal_channel_mapper.find(name)
+      self[name]
     end
-    assert unit.lookup_ideal_channel("blah")[:ignore]
+    unit = MagicMythMapper.new(ideal_channel_mapper)
 
     myth_channel = MockActiveRecordChannel.new
     myth_channel.sourceid = 4
+    myth_channel.name = "Name"
 
     unit.process_channel myth_channel
     assert_equal 0, unit.channel_map.size, "Channel Group should not have been created for ignored channel"
@@ -76,18 +75,4 @@ class MagicMythMapperTest < ActiveSupport::TestCase
     assert_equal 4, unit.processed_channels.size
   end
 
-  test "lookup_ideal_channel gets an ideal_channel_finder and uses it" do
-    unit = MagicMythMapper.new
-    def unit.ideal_channel_finder
-      {'chan name' =>'Found Channel'}
-    end
-    assert_equal('Found Channel', unit.lookup_ideal_channel('Chan Name'))
-  end
-
-  test "ideal_channel_finder makes new instance, then reuses it" do
-    unit = MagicMythMapper.new
-    first_channel_finder = unit.ideal_channel_finder
-    second_channel_finder = unit.ideal_channel_finder
-    assert_same first_channel_finder, second_channel_finder
-  end
 end

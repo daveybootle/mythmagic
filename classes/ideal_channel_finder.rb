@@ -1,9 +1,9 @@
-class IdealChannelFinder < Hash
+class IdealChannelFinder
 
   attr_reader :file_syntax_errors
   
   def initialize mapping_file_name
-    @channel_matching_map = {}
+    @channel_map = {}
     @file_syntax_errors = []
     File.open(mapping_file_name) do |f|
       while(line = f.gets) do
@@ -34,10 +34,15 @@ class IdealChannelFinder < Hash
         linebits[2] = "" if linebits[2].nil?
         channel[:xmltv_id] = linebits[2].strip
         channel[:ignore] = channel[:xmltv_id][0] == 'x' && channel[:xmltv_id].length == 1 unless channel[:xmltv_id].nil?
-        self[alt_name.downcase] = channel
+        @channel_map[alt_name.downcase] = channel
       end
     else
       @file_syntax_errors << "#{line} - expected at least 2 ideal parameters but got #{linebits.length}"
     end
   end
+
+  def find(key)
+    @channel_map[key.downcase]
+  end
 end
+
