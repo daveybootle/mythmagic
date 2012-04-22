@@ -1,4 +1,5 @@
 class ChannelGroup
+  attr_accessor :channum
   attr_reader :sources, :name, :callsign, :xmltvid, :icon
   
   def initialize channel_name, callsign, xmltvid
@@ -14,10 +15,10 @@ class ChannelGroup
     @icon = channel.icon.strip unless channel.icon.nil? or channel.icon.strip==""
   end
   
-  def channum
+  def create_channum
     first_source_channels = @sources[@sources.keys.sort.first]
     first_source_channums = first_source_channels.collect{|channel| channel.channum.to_i }.select{|f| f >0}
-    first_source_channums.sort.first 
+    @channum = first_source_channums.sort.first 
   end
 
   def write_channels

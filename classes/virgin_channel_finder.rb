@@ -16,6 +16,8 @@ class VirginChannelFinder < Hash
   end
 
   def get_channel_number_for name
-    self[name.downcase]
+    channum = self[name.downcase]
+    return nil if channum.nil?
+    return channum.to_i
   end
 end

@@ -2,13 +2,20 @@
 
 require 'active_record'
 require 'yaml'
+require 'pp'
 
 dbconfig = YAML::load(File.open('config/database.yml'))
 ActiveRecord::Base.establish_connection(dbconfig['development'])
 
 Dir[File.expand_path('../classes/*.rb', __FILE__)].each{ |file| require file }
 
+ideal_channel_finder = IdealChannelFinder.new(File.expand_path('../chan_name_variations.csv',__FILE__))
+
 mmm = MagicMythMapper.new
 mmm.process_myth_channels(Channel.find(:all))
-MythChannelReporter.print_report(mmm.channel_map, mmm.unmatched_channel_names)
+
+numberer = ChannelNumberer.new(VirginChannelFinder.new('electric-channel-guide.txt'))
+numbered_channel_map = numberer.number(mmm.channel_map)
+
+MythChannelReporter.print_report(numbered_channel_map, mmm.unmatched_channel_names)
 

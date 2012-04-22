@@ -1,6 +1,3 @@
-
-require 'pp'
-
 class MythChannelReporter
   
   def self.print_report channel_map, unmatched_channel_names 
@@ -11,12 +8,12 @@ class MythChannelReporter
   def self.print_channel_group_summary channel_map
     puts "*** Channel Summary ***"
 
-    sources = channel_map.collect{ |good_name, channel_group| channel_group.sources.collect{|sourceid,channels| sourceid } }.flatten.uniq.sort
+    sources = channel_map.collect{ |key, channel_group| channel_group.sources.collect{|sourceid,channels| sourceid } }.flatten.uniq.sort
 
-    chan_name_width = channel_map.collect{ |good_name, channel_group| good_name.length }.max + 1
-    chan_num_width = channel_map.collect{ |good_name, channel_group| channel_group.channum.to_s.length }.max + 1
-    icon_width = channel_map.collect{ |good_name, channel_group| channel_group.icon.to_s.length }.max + 1
-    xmltv_width = channel_map.collect{ |good_name, channel_group| channel_group.xmltvid.to_s.length }.max + 1
+    chan_name_width = channel_map.collect{ |key, channel_group| channel_group.name.length }.max + 1
+    chan_num_width = channel_map.collect{ |key, channel_group| channel_group.channum.to_s.length }.max + 1
+    icon_width = channel_map.collect{ |key, channel_group| channel_group.icon.to_s.length }.max + 1
+    xmltv_width = channel_map.collect{ |key, channel_group| channel_group.xmltvid.to_s.length }.max + 1
 
     source_width = 6
 
@@ -32,10 +29,10 @@ class MythChannelReporter
     lines_without_channum = []
     lines_with_channum = {}
  
-    channel_map.each do |good_name, channel_group|
+    channel_map.each do |key, channel_group|
       output_string = ""
       output_string << channel_group.channum.to_s.ljust(chan_num_width)
-      output_string << good_name.ljust(chan_name_width)
+      output_string << channel_group.name.ljust(chan_name_width)
       sources.each do |sourceid|
         source = channel_group.sources[sourceid]
         if source.nil?
@@ -54,6 +51,7 @@ class MythChannelReporter
         lines_with_channum[channel_group.channum] = output_string
       end
     end 
+    
     lines_with_channum.keys.sort.each_with_index do |key, index|
       if(index.modulo(2)==1) then
         print "\033[1;48;5;22m"

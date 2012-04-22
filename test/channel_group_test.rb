@@ -127,6 +127,8 @@ class ChannelGroupTest < ActiveSupport::TestCase
     unit.add_myth_channel(channel2)
     unit.add_myth_channel(channel3)
 
+    unit.create_channum
+    
     assert_equal 4, unit.channum
   end
 
@@ -142,6 +144,8 @@ class ChannelGroupTest < ActiveSupport::TestCase
     unit.add_myth_channel(channel2)
     unit.add_myth_channel(channel3)
 
+    unit.create_channum
+    
     unit.write_channels
 
     assert channel1.saved, "Should have saved channel 1"
