@@ -12,6 +12,7 @@ development:
   username: mythtv
   password: mythtv
   socket: /var/run/mysqld/mysqld.sock
+  host: localhost
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
