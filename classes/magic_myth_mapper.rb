@@ -7,9 +7,12 @@ class MagicMythMapper
     @channel_map = ChannelMap.new
     @unmatched_channel_names = []
     
-    #write_changes_to_db
   end
-  
+ 
+  def write_changes_to_db
+    @channel_map.write_changes_to_db
+  end
+
   def process_myth_channels myth_channels
     myth_channels.each { |channel| process_channel(channel) }
   end

@@ -12,7 +12,7 @@ class ChannelMap < Hash
 
   def write_changes_to_db
     self.each do |good_name, channel_group|
-      channel_group.writechannels
+      channel_group.write_channels
     end 
   end
   

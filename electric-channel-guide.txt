@@ -91,7 +91,7 @@
 237,Crime & Investigation Network
 242,Bio
 243,PBS
-260,Good Food
+260,Good 
 261,Good Food HD
 262,Good Food +1
 265,Home
@@ -261,7 +261,7 @@
 922,Classic FM
 924,Planet Rock
 927,Talksport
-928,Magic
+928,Magic Radio
 951,Absolute 80s
 952,Absolute Classic Rock
 958,Capital FM

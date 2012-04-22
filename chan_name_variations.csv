@@ -1,4 +1,4 @@
-[102.2 Smooth FM],102.2 Smooth FM,Smooth,
+[102.2 Smooth FM,Smooth FM,SMOOTH RADIO],102.2 Smooth FM,Smooth,
 [4Music],4Music,4Music,4music.channel4.com
 [5* +1,Five * +1],5* +1,5*+1,tsod.plus-1.fiver.channel5
 [5*,Five *],5*,5*,fiver.channel5.co.uk
@@ -28,7 +28,7 @@
 [ARY QTV],ARY QTV,ARYQTV,
 [ARY World],ARY World,ARYWld,
 [Bangla TV,ATN Bangla UK],Bangla TV,Bangla,
-[Attheraces],Attheraces,ATR,attheraces.co.uk
+[Attheraces,At The Races],At The Races,ATR,attheraces.co.uk
 [B4U Movies],B4U Movies,B4UMov,b4utv.com
 [B4U Music],B4U Music,B4UMus,b4utv.com
 [Babeworld.tv],Babeworld.tv,Babewld,x
@@ -64,7 +64,7 @@
 [BBC One HD,BBC ONE HD,BBC 1 HD],BBC ONE HD,BBC1HD,hd.bbc1.bbc.co.uk
 [BBC Parliament,BBC PARL'MNT],BBC Parliament,BBCPA,parliament.bbc.co.uk
 [BBC Radio 1],BBC Radio 1,BBCR1,radio-1.bbc.co.uk
-[BBC Radio 1 Xtra,BBC R1X],BBC Radio 1 Xtra,BBCR1X,bbc_radio1_xtra
+[BBC Radio 1 Xtra,BBC R1X,BBC 1Xtra],BBC Radio 1 Xtra,BBCR1X,bbc_radio1_xtra
 [BBC Radio 2],BBC Radio 2,BBCR2,radio-2.bbc.co.uk
 [BBC Radio 3],BBC Radio 3,BBCR3,radio-3.bbc.co.uk
 [BBC Radio 4],BBC Radio 4,BBCR4,radio-4.bbc.co.uk
@@ -81,19 +81,19 @@
 [BBC World Service,BBC World Sv.],BBC World Service,BBCWS,
 [Believe TV],Believe TV,Believe,
 [BEN],BEN,BEN,
-[Best Direct],Best Direct,Best Direct,bestdirect.tv
+[Best Direct,Best Direct TV],Best Direct,Best Direct,bestdirect.tv
 [BET +1],BET +1,BET +1,tsod.plus-1.international.bet.com
 [BET],BET,BET,international.bet.com
-[Bid TV],Bid TV,BidTV,bid.tv
+[Bid TV,Bid],Bid TV,BidTV,bid.tv
 [Big Deal],Big Deal,Big Deal,
-[Biography Channel],Biography Channel,Bio,biography-channel.biography.com
+[Biography Channel,Bio],Biography Channel,Bio,biography-channel.biography.com
 [Bio HD],Bio HD,BioHD,hd.biography-channel.biography.com
 [Blighty],Blighty,Blghty,blighty.uktv.co.uk
 [Bliss],Bliss,Bliss,bliss.co.uk
 [Bloomberg],Bloomberg,Bloomberg,bloomberg.com
 [Blue Kiss TV],Blue Kiss TV,Blue Kiss,
 [Body In Balance],Body In Balance,Body In Balance,
-[Boomerang+1],Boomerang+1,Boom+1,tsod.plus-1.boomerang.cartoonnetwork.com
+[Boomerang+1,Boomerang +1],Boomerang+1,Boom+1,tsod.plus-1.boomerang.cartoonnetwork.com
 [Boomerang],Boomerang,Boom,boomerang.cartoonnetwork.com
 [BoxNation],BoxNation,BoxNation,
 [Bravo +1],Bravo +1,Bra+1,tsod.plus-1.bravo.co.uk
@@ -146,7 +146,7 @@
 [Controversial tv],Controversial tv,Controversial,
 [Cream],Cream,Cream,
 [Create & Craft],Create & Craft,Create,
-[Crime and Investigation Network],Crime and Investigation Network,CINet,crimeandinvestigation.co.uk
+[Crime and Investigation Network,Crime & Investigation Network],Crime and Investigation Network,CINet,crimeandinvestigation.co.uk
 [Current TV],Current TV,Current,
 [DanceNationTV],DanceNationTV,DanceNation,mydancenation.com
 [Dating Channel],Dating Channel,Dating,
@@ -155,17 +155,17 @@
 [DAYSTAR],DAYSTAR,DAYSTAR,
 [Desh TV],Desh TV,Desh,
 [Dirty Talk],Dirty Talk,Dirty Talk,
-[Discovery Channel +1],Discovery Channel +1,Disc+,tsod.plus-1.discoveryeurope.com
-[Discovery Channel],Discovery Channel,Discov,discoveryeurope.com
+[Discovery Channel +1,Discovery +1],Discovery Channel +1,Disc+,tsod.plus-1.discoveryeurope.com
+[Discovery Channel,Discovery],Discovery Channel,Discov,discoveryeurope.com
 [Discovery History],Discovery History,DiscHist,history.discoveryeurope.com
 [Discovery Home & Health],Discovery Home & Health,DscH&H,health.discovery.com
-[Discovery Realtime +1],Discovery Realtime +1,RlTm+1,realtime.discoveryeurope.com
-[Discovery Realtime],Discovery Realtime,Realtm,plus-1.realtime.discoveryeurope.com
+[Discovery Realtime +1,Discovery Real Time +1],Discovery Realtime +1,RlTm+1,realtime.discoveryeurope.com
+[Discovery Realtime,Discovery Real Time],Discovery Realtime,Realtm,plus-1.realtime.discoveryeurope.com
 [Discovery Science],Discovery Science,DscSci,science.discoveryeurope.com
 [Discovery Shed],Discovery Shed,DisSh,shed.discoveryeurope.com
-[Discovery Travel and Living],Discovery Travel and Living,DscTrv,travel.discoveryeurope.com
+[Discovery Travel and Living,Discovery Travel & Living],Discovery Travel and Living,DscTrv,travel.discoveryeurope.com
 [Discovery Turbo],Discovery Turbo,Turbo,turbo.discoveryeurope.com
-[Disney Channel+1],Disney Channel+1,Dsny+1,tsod.plus-1.disneychannel.disney.co.uk
+[Disney Channel +1,Disney Channel+1],Disney Channel +1,Dsny+1,tsod.plus-1.disneychannel.disney.co.uk
 [Disney Channel],Disney Channel,Disney,disneychannel.disney.co.uk
 [Disney Cinemagic],Disney Cinemagic,DISCI,cinemagic.disney.co.uk
 [Disney Junior],Disney Junior,DisneyJr,junior.disney.co.uk
@@ -190,7 +190,7 @@
 [ETV3],ETV3,ETV3,x
 [ETV5],ETV5,ETV5,x
 [ETV6],ETV6,ETV6,x
-[Euronews],Euronews,Euronews,euronews.com
+[Euronews,Euronews (multiple languages)],Euronews,Euronews,euronews.com
 [EWTN],EWTN,EWTN,
 [Extreme Sports],Extreme Sports,X-Sprt,extreme.com
 [Faith World TV],Faith World TV,Faith World TV,
@@ -200,7 +200,7 @@
 [Filth],Filth,Filth,
 [Fitness TV],Fitness TV,Fitness,fitness.tv
 [Five,Channel 5],Five,FIVE,channel5.co.uk
-[Five USA +1],Five USA +1,5US+1,tsod.plus-1.fiveusa.channel5.co.uk
+[Five USA +1,5 USA +1],Five USA +1,5US+1,tsod.plus-1.fiveusa.channel5.co.uk
 [Five USA,5 USA],Five USA,5US,fiveusa.channel5.co.uk
 [Flava],Flava,Flava,essentialflava.com
 [Flirt TV 2],Flirt TV 2,Flirt TV 2,
@@ -221,16 +221,16 @@
 [Glory TV],Glory TV,Glory TV,
 [God Channel],God Channel,God,god.tv
 [God Europe],God Channel,God,god.tv
-[G.O.L.D. +1],G.O.L.D. +1,GOLD+1,tsod.plus-1.gold.uktv.co.uk
-[G.O.L.D.],G.O.L.D.,GOLD,gold.uktv.co.uk
+[G.O.L.D. +1,Gold +1],G.O.L.D. +1,GOLD+1,tsod.plus-1.gold.uktv.co.uk
+[G.O.L.D.,Gold],G.O.L.D.,GOLD,gold.uktv.co.uk
 [Gospel Channel],Gospel Channel,Gospel Channel,
 [Greatest Hits TV],Greatest Hits TV,Greatest Hits TV,
-[Heart],Heart,Heart,
+[Heart,Heart 106.2],Heart,Heart,
 [heat],heat,heat,
 [Hidayat TV],Hidayat TV,Hidayat TV,
 [High Street TV],High Street TV,High Street TV,channelm.co.uk
 [History +1],History +1,HIS+1,tsod.plus-1.thehistorychannel.co.uk
-[History Channel],History Channel,Histry,thehistorychannel.co.uk
+[History Channel,History],History Channel,Histry,thehistorychannel.co.uk
 [HiTV],HiTV,HiTV,
 [holiday+cruise],holiday+cruise,holiday+cruise,
 [Home +1],Home +1,Home+1,tsod.plus-1.home.uktv.co.uk
@@ -273,8 +273,8 @@
 [ITV4],ITV4,ITV4,itv4.itv.co.uk
 [ITV HD,ITV1 HD],ITV1 HD,ITV1HD,rt.hd.london.itv1.itv.co.uk
 [jazeerachildren],jazeerachildren,jazeerachildren,
-[Jewellery Ch.],Jewellery Ch.,Jewellery Ch.,
-[Jewelry Maker],Jewelry Maker,Jewelry Maker,
+[Jewellery Ch.,The Jewellery Channel,Jewellery Channel],Jewellery Channel,Jewellery Ch.,
+[Jewellery Maker,Maker],Jewellry Maker,Jewellry Maker,
 [JML Cookshop],JML Cookshop,JML Cookshop,
 [JML Direct],JML Direct,JML Direct,
 [JML Home&DIY],JML Home&DIY,JML Home&DIY,
@@ -283,12 +283,12 @@
 [Kiss FM],Kiss FM,KissFM,
 [Kiss],Kiss,Kiss,kiss-tv.kiss100.com
 [Kix!],Kix!,Kix!,
-[LBC 97.3],LBC 97.3,LBC,
-[LBC News],LBC News,LBCNews,
+[LBC 97.3,LBC 97.3 FM],LBC 97.3,LBC,
+[LBC News,LBC News 1152],LBC News,LBCNews,
 [Liverpool FC TV],Liverpool FC TV,Liverpool FC TV,
 [LivexxxBabes],LivexxxBabes,LivexxxBabes,x
-[Living +1],Living +1,Lvng+1,tsod.plus-1.livingtv.co.uk
-[Living],Living,Liv,livingtv.co.uk
+[Living +1,Sky Living +1],Living +1,Lvng+1,tsod.plus-1.livingtv.co.uk
+[Living,Sky Living],Living,Liv,livingtv.co.uk
 [LOVEWORLD TV],Loveworld TV,Loveworld,
 [Lucky Star],Lucky Star,Lucky Star,
 [Luxury Life HD],Luxury Life HD,Luxury Life HD,
@@ -314,7 +314,7 @@
 [Motors TV],Motors TV,Motors,motors.tv
 [mov4men+1],Movies4Men+1,mov4men+1,plus-1.1.movies4men.co.uk
 [mov4men2 +1],Movies4Men 2 +1,mov4men2+1,plus-1.2.movies4men.co.uk
-[Movies 24 +],Movies 24 +,Mov24+,plus.tvmovies24.com
+[Movies 24 +,Movies 24+],Movies 24 +,Mov24+,plus.tvmovies24.com
 [Movies 24],Movies 24,Mov24,tvmovies24.com
 [movies4men 2],Movies4Men 2,m4m2,2.movies4men.co.uk
 [Movies4Men],Movies4Men,m4m,1.movies4men.co.uk
@@ -328,16 +328,16 @@
 [Music India],Music India,Music India,
 [MUTV],MUTV,MUTV,mutv.manutd.com
 [My Channel],My Channel,My Channel,
-[National Geographic +1],National Geographic +1,NtGeo+,tsod.plus-1.nationalgeographic.co.uk
-[National Geographic],National Geographic,NatGeo,nationalgeographic.co.uk
-[National Geo Wild],National Geo Wild,Wild,wild.nationalgeographic.co.uk
+[National Geographic +1,National Geographic Channel +1],National Geographic +1,NtGeo+,tsod.plus-1.nationalgeographic.co.uk
+[National Geographic,National Geographic Channel],National Geographic,NatGeo,nationalgeographic.co.uk
+[National Geo Wild,Nat Geo Wild],National Geographic Wild,Wild,wild.nationalgeographic.co.uk
 [NHK World HD],NHK World HD,NHK World HD,hd.world.nhk.or.jp
 [NHK World TV],NHK World TV,NHK World TV,world.nhk.or.jp
 [Nickelodeon],Nickelodeon,Nick,nickelodeon.co.uk
 [Nick Jnr 2],Nick Jr. 2,NickJr2,2.jr.nickelodeon.co.uk
 [Nick Jr],Nick Jr.,NickJr,jr.nickelodeon.co.uk
-[Nick Replay],Nick Replay,Nick+,replay.nickelodeon.co.uk
-[Nicktoons],Nicktoons,NikTns,toons.nickelodeon.co.uk
+[Nick Replay,N'toons Replay],Nick Replay,Nick+,replay.nickelodeon.co.uk
+[Nicktoons,Nicktoons TV],Nicktoons,NikTns,toons.nickelodeon.co.uk
 [NME],NME,NME,
 [NME TV],NME TV,NME TV,
 [Noor TV],Noor TV,Noor,
@@ -398,24 +398,23 @@
 [Sikh Channel,Sikh TV],Sikh Channel,Sikh Channel,x
 [Sky 1 ETV Slot1],Sky 1 ETV Slot1,Sky 1 ETV Slot1,x
 [Sky Active Ads],Sky Active Ads,Sky Active Ads,x
-[Sky Arts1],Sky Arts1,SkyArts,arts.sky.com
-[Sky Arts2],Sky Arts2,SArts2,2.arts.sky.com
+[Sky Arts1,Sky Arts 1],Sky Arts1,SkyArts,arts.sky.com
+[Sky Arts2,Sky Arts 2],Sky Arts2,SArts2,2.arts.sky.com
 [Sky Insider HD],Sky Insider HD,Sky Insider HD,
 [Sky Intro],Sky Intro,Sky Intro,
 [Sky Livingit +1],Sky Livingit +1,Livit+1,plus-1.livingit.livingtv.co.uk
 [Sky Livingit],Sky Livingit,LIV2,livingit.livingtv.co.uk
 [Sky Living Loves],Sky Living Loves,LivLoves,livingloves.sky.com
 [Sky News,Sky News UK (Cable)],Sky News,SKYNews,sky-news.sky.com
-[Sky One],Sky One,Sky1,sky-one.sky.com
+[Sky One,Sky1],Sky One,Sky1,sky-one.sky.com
 [Sky],Sky,Sky,x
 [Sky Sports News],Sky Sports News,SSNews,news.sports.sky.com
-[Sky Two],Sky Two,Sky2,sky-two.sky.com
+[Sky Two,Sky2],Sky Two,Sky2,sky-two.sky.com
 [SmartLive],SmartLive,SmartLive,
 [Smash Hits Radio],Smash Hits Radio,SHitsRadio,
-[Smash Hits!],Smash Hits!,SHits,smashhits.net
-[SMOOTH RADIO],Smooth Radio,Smooth Radio,
+[Smash Hits!,Smash Hits],Smash Hits!,SHits,smashhits.net
 [Sonlife],Sonlife,Sonlife,
-[Sony Entertainment TV Asia],Sony Entertainment TV Asia,SONEN,
+[Sony Entertainment TV Asia,Sony Entertainment],Sony Entertainment,SONEN,
 [SouthForYou],SouthForYou,SouthForYou,
 [speed auction],speed auction,speed auction,
 [SportxxxGirls],SportxxxGirls,SportxxxGirls,
@@ -444,7 +443,6 @@
 [The Box],The Box,TheBox,thebox.co.uk
 [The Hits Radio],The Hits Radio,Hits Radio,
 [theJazz],theJazz,theJazz,
-[The Jewellery Channel],The Jewellery Channel,The Jewellery Channe,
 [The Other Side],The Other Side,The Other Side,
 [The Vault],The Vault,The Vault,
 [The Zone],The Zone,The Zone,
@@ -459,15 +457,15 @@
 [True Entertainment,True Ent],True Entertainment,TrueEnt,entertainment.truemovies.tv
 [True Movies 1,True Movies],True Movies 1,True Movies 1,1.truemovies.tv
 [True Movies 2],True Movies 2,True Movies 2,2.truemovies.tv
-[Turner Classic Movies],Turner Classic Movies,TCM,tcm.turner.com
-[TV5 Europe],TV5 Europe,TV5,tv5.org
+[Turner Classic Movies,TCM],Turner Classic Movies,TCM,tcm.turner.com
+[TV5 Europe,TV5],TV5,TV5,tv5.org
 [TV SHOP],TV SHOP,TV SHOP,
 [UCB Europe,UCB TV],UCB TV,UCB,
 [UCTV],UCTV,UCTV,
-[UKTV Docs+1~],UKTV Docs+1,UKTV Docs+1,
-[UKTV Good Food +1],UKTV Good Food +1,GdFd+1,tsod.plus-1.goodfood.uktv.co.uk
-[UKTV Good Food],UKTV Good Food,GdFood,goodfood.uktv.co.uk
-[UKTV Home],UKTV Home,HOME,home.uktv.co.uk
+[UKTV Docs+1~,UKTV Docs+1],UKTV Docs+1,UKTV Docs+1,
+[UKTV Good Food +1,Good Food +1],UKTV Good Food +1,GdFd+1,tsod.plus-1.goodfood.uktv.co.uk
+[UKTV Good Food,Good Food],UKTV Good Food,GdFood,goodfood.uktv.co.uk
+[UKTV Home,Home],UKTV Home,HOME,home.uktv.co.uk
 [UMMAH CHNL],UMMAH CHNL,UMMAH CHNL,
 [Universal Channel +1],Universal Channel +1,Universal+1,plus-1.universalchannel.co.uk
 [Universal Channel],Universal Channel,Universal,universalchannel.co.uk

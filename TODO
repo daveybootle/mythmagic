@@ -1,0 +1,1 @@
+Ignored channels in chan_name_variations.csv should get removed from visible channels (not just ignored from the process).

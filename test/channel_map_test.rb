@@ -70,7 +70,7 @@ class ChannelMapTest < ActiveSupport::TestCase
 
   class MockChannelGroup
     attr_reader :written
-    def writechannels
+    def write_channels
       @written = true
     end
   end
